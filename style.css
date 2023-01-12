@@ -1,8 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
+*{
+    font-family: 'Poppins';
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+ }
 
-section{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
     height: 718px;
     width: 375px;
     border: 2px solid #ccc;
     border-radius: .5em;
+    padding: 25px 25px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+.headr{
+    margin-bottom: 20px;
+ }
+ 
+
+.headr .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+ }
+ 
+ .headr .flex .logo{
+    color: #6070FF;
+    font-size: 18px;
+    font-weight: 700;
+ }
+ 
+ 
+ .headr .flex .bars{
+    font-size: 3rem;
+    cursor: pointer;
+    color: #6070FF;
+
+ }
+
+ /*headlin*/
+
+ .headline{
+    display: flex;
+    flex-direction: column;
+    padding: 114px 24px;
+    background-image: url(unt/header-shapes\ mobile.png);
+    gap: 12px;
+ }
+
+ .headline h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172B4D;
+ }
+
+ .headline p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+ }
+
+ .headline a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+ }
+
+ .headline img{
+    width: 170.17px;
+    height: 20px;
+ }
