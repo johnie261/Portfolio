@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  max-height: 718px;
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f9;
+  margin: auto;
+  border: 2px solid #ccc;
+}
+
+/* header */
+
+.navbar {
+  padding: 58px 24px 12px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+.navbar .menuBtn {
+  width: 18px;
+  height: 12px;
+  color: #6070ff;
+}
+
+/* HEADLINE */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  gap: 12px;
+  align-items: flex-start;
+  background: #fff;
+  background-image: url(unt/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+}
+
+.headline h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.headline p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.headline > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.headline ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}

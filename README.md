@@ -26,9 +26,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+
 
   <h3><b>Microverse README Template</b></h3>
 
@@ -60,17 +58,16 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Portfolio setup <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+Portfolio setup is a project showing the skills, experience that i have and also the programming languages am conversant with.
+
+## 🛠 Built With <a name="built-with">HTML and CSS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -97,11 +94,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Menu bar
+- navigation bar
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +105,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -119,13 +114,16 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+
+ 
+ A text editor
 
 <!--
 Example command:
@@ -138,6 +136,11 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
+
+
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 
 <!--
 Example commands:
@@ -152,6 +155,9 @@ Example commands:
 
 Install this project with:
 
+
+Use visual code to install
+
 <!--
 Example command:
 
@@ -165,6 +171,9 @@ Example command:
 
 To run the project, execute the following command:
 
+
+To run the project you need to make use of git commands and github
+
 <!--
 Example command:
 
@@ -177,6 +186,9 @@ Example command:
 
 To run tests, run the following command:
 
+
+run the html file
+
 <!--
 Example command:
 
@@ -188,6 +200,10 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+
+
+index.html
+
 
 <!--
 Example:
@@ -203,19 +219,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/johnie261)
+- Twitter: [@twitterhandle](https://twitter.com/njorogejohnie)
+- LinkedIn: [LinkedIn]([https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/john-njoroge-19b6a4245/))
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +233,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+- Working on adding a demo of my projects. 
+- Working towards adding a contact form.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +253,10 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+
+If you like this project like and follow me on GitHub
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +264,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+
+
+I would like to thank my mentor who realy helped alot.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
