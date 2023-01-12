@@ -144,7 +144,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
-  background: #FFFFFF;
+  background: #F7F7F9;
 }
 
 .work .box{
@@ -156,9 +156,10 @@ body {
   background: #FFFFFF;
   border: 1px solid #DFE1E6;
   border-radius: 16px;
+  
 }
 
-.work .box .imgage{
+.work .box .image{
   width: 295px;
   height: 220px;
   border-radius: 8px;
