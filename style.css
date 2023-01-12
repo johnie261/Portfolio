@@ -10,26 +10,6 @@
   text-decoration: none;
 }
 
-/*
-*::selection{
-  background-color: var(--sub-color);
-  color: var(--main-color);
-}
-
-*::-webkit-scrollbar{
-  height: .5rem;
-  width: 1rem;
-}
-
-*::-webkit-scrollbar-track{
-  background-color: transparent;
-}
-
-*::-webkit-scrollbar-thumb{
-  background-color: var(--sub-color);
-  border-radius: 5rem;
-}
-*/
 
 body {
   display: flex;
@@ -146,7 +126,7 @@ body {
   gap: 24px;
   background: #F7F7F9;
   padding-top: 114px;
-  padding-bottom: 114px;
+  padding-bottom: ;
 }
 
 .work .box{
