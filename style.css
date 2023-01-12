@@ -36,7 +36,7 @@ body {
   flex-direction: column;
   max-width: 375px;
   font-family: 'Poppins', sans-serif;
-  background: #f7f7f9;
+  background: #F7F7F9;
   margin: auto;
   border: 2px solid #ccc;
 }
@@ -144,6 +144,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
+  background: #FFFFFF;
 }
 
 .work .box{
@@ -235,3 +236,160 @@ body {
   letter-spacing: 0.03em;
   color: #6070FF;
 }
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  background: #FFFFFF;
+}
+
+.about .about_myself{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  margin: 24px;
+  margin-top: 114px;
+
+}
+
+.about .about_myself h1{
+  font-style: normal; 
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  color: #172B4D;
+  text-transform: capitalize;
+}
+
+.about .about_myself p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about .about_myself .conn{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+}
+
+.about .about_myself .conn .connect{
+  font-weight: 500;
+  font-size: 16px;
+  color: #7F8CFF;
+
+}
+
+.about .about_myself .conn ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 200px;
+  height: 40px;
+  order: 1;
+  list-style: none;
+}
+
+.about .about_myself .conn ul li{
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  order: 2;
+}
+
+.about .about_myself input{
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+  order: 3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  background: #FFFFFF;;
+  width: 162px;
+}
+
+.about .skills_list{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  margin: 24px;
+
+}
+
+.about .skills_list .box .lang{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  padding: 24px 12px;
+}
+
+.about .skills_list .box .lang h3,h3,h3{
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.about .skills_list .box .box_drop ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column
+}
+
+.about .skills_list .box .box_drop ul li{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 9px;
+}
+
+.about .skills_list .box .box_drop ul li img{
+  width: 48px;
+  height: 48px;
+}
+
+.about .skills_list .box .box_drop ul li p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+    
+}
+
+.about .skills_list .box-side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  padding: 24px 12px;
+  border-bottom: 1px solid #DFE1E6;
+}
+
