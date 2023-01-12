@@ -27,6 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
+
   <h3><b>Microverse README Template</b></h3>
 
 </div>
@@ -97,12 +98,12 @@ Portfolio setup is a project showing the skills, experience that i have and also
 - Menu bar
 - navigation bar
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
 
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
@@ -114,13 +115,16 @@ Portfolio setup is a project showing the skills, experience that i have and also
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+
  
  A text editor
+
 <!--
 Example command:
 
@@ -134,8 +138,10 @@ Example command:
 Clone this repository to your desired folder:
 
 
+
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
+
 <!--
 Example commands:
 
@@ -149,7 +155,9 @@ Example commands:
 
 Install this project with:
 
+
 Use visual code to install
+
 <!--
 Example command:
 
@@ -163,7 +171,9 @@ Example command:
 
 To run the project, execute the following command:
 
+
 To run the project you need to make use of git commands and github
+
 <!--
 Example command:
 
@@ -176,7 +186,9 @@ Example command:
 
 To run tests, run the following command:
 
+
 run the html file
+
 <!--
 Example command:
 
@@ -189,7 +201,9 @@ Example command:
 
 You can deploy this project using:
 
+
 index.html
+
 
 <!--
 Example:
@@ -222,6 +236,7 @@ Example:
 - Working on adding a demo of my projects. 
 - Working towards adding a contact form.
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -239,7 +254,9 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
+
 If you like this project like and follow me on GitHub
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -249,7 +266,9 @@ If you like this project like and follow me on GitHub
 
 
 
+
 I would like to thank my mentor who realy helped alot.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
