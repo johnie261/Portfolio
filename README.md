@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio setup <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+
 
 Portfolio setup is a project showing the skills, experience that i have and also the programming languages am conversant with.
 
