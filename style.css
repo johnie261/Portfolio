@@ -145,6 +145,7 @@ body {
   grid-template-columns: 1fr;
   gap: 24px;
   background: #F7F7F9;
+  padding-top: 114px;
 }
 
 .work .box{
