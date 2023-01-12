@@ -113,9 +113,6 @@ body {
   list-style: none;
 }
 
-
-/* work section */
-
 .work {
   display: grid;
   grid-template-columns: 1fr;
