@@ -29,7 +29,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .navbar .logo {
@@ -41,10 +40,10 @@ body {
 .navbar .menuBtn {
   width: 18px;
   height: 12px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-/*HEADLINE*/
+/* HEADLINE */
 
 .headline {
   display: flex;
@@ -56,7 +55,6 @@ body {
   background-image: url(unt/header-shapes\ mobile.png);
   background-repeat: no-repeat;
 }
-
 
 .headline h1 {
   font-style: normal;
@@ -86,5 +84,4 @@ body {
   flex-direction: row;
   gap: 20px;
   list-style: none;
-
 }
