@@ -27,8 +27,6 @@ body {
   line-height: 44px;
   color: #172b4d;
   text-transform: capitalize;
-
-
 }
 
 .btn {
@@ -188,7 +186,6 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-
 }
 
 .work .box .tags {
@@ -239,7 +236,6 @@ body {
   line-height: 52px;
   color: #172b4d;
   text-transform: capitalize;
-  font-family: 'Poppins';
 }
 
 .about .about_myself p {
@@ -249,7 +245,6 @@ body {
   line-height: 24px;
   color: #344563;
   width: 327px;
-  font-family: 'Poppins';
 }
 
 .about .about_myself .conn {
@@ -325,7 +320,7 @@ body {
   font-weight: 500;
   text-transform: capitalize;
   font-size: 20px;
-  color: #000000;
+  color: #000;
 }
 
 .about .skills_list .box .lang h3 {
@@ -334,7 +329,7 @@ body {
   font-weight: 500;
   text-transform: capitalize;
   font-size: 20px;
-  color: #000000;
+  color: #000;
 }
 
 .about .skills_list .box .box_drop ul {
