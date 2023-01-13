@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -14,11 +14,38 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 375px;
-  max-height: 718px;
   font-family: 'Poppins', sans-serif;
   background: #f7f7f9;
   margin: auto;
   border: 2px solid #ccc;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-transform: capitalize;
+}
+
+.btn {
+  margin-top: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  background: #fff;
 }
 
 /* header */
@@ -84,4 +111,262 @@ body {
   flex-direction: row;
   gap: 20px;
   list-style: none;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  background: #f7f7f9;
+  padding-top: 114px;
+  padding-bottom: 114px;
+}
+
+.work .box {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+  margin: 24px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.work .box .image {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.work .box .exper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  list-style: none;
+  text-transform: capitalize;
+  margin-top: 12px;
+  width: 236px;
+  font-style: normal;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.work .box .exper .comp {
+  width: 55px;
+  height: 16px;
+  color: #344563;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.work .box .exper .comp1 {
+  width: 88px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+.work .box .exper .comp2 {
+  width: 29px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+.work .box p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.work .box .tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  list-style: none;
+  text-transform: lowercase;
+}
+
+.work .box .tags .language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  background: #fff;
+}
+
+.about .about_myself {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  margin: 24px;
+  margin-top: 114px;
+}
+
+.about .about_myself h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-transform: capitalize;
+}
+
+.about .about_myself p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  width: 327px;
+}
+
+.about .about_myself .conn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 16px;
+}
+
+.about .about_myself .conn .connect {
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.about .about_myself .conn ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  order: 1;
+  list-style: none;
+}
+
+.about .about_myself .conn ul li {
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  order: 2;
+}
+
+.about .about_myself input {
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  order: 3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  width: 162px;
+}
+
+.about .skills_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  margin: 24px;
+}
+
+.about .skills_list .box .lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  padding: 24px 12px;
+}
+
+.about .skills_list .box-side h3 {
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #000;
+}
+
+.about .skills_list .box .lang h3 {
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #000;
+}
+
+.about .skills_list .box .box_drop ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .skills_list .box .box_drop ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 9px;
+}
+
+.about .skills_list .box .box_drop ul li img {
+  width: 48px;
+  height: 48px;
+}
+
+.about .skills_list .box .box_drop ul li p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+.about .skills_list .box-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  padding: 24px 12px;
+  border-bottom: 1px solid #dfe1e6;
 }
