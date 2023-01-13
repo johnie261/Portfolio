@@ -64,31 +64,11 @@ After you're finished please remove all the comments and instructions!
 
 Portfolio setup is a project showing the skills, experience that i have and also the programming languages am conversant with.
 
-## 🛠 Built With <a name="built-with">HTML and CSS</a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+      HTML and CSS
 
 <!-- Features -->
 
