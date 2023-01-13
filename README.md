@@ -97,6 +97,8 @@ Portfolio setup is a project showing the skills, experience that i have and also
 
 - Menu bar
 - navigation bar
+- Projects done
+- My social media accounts
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -106,7 +108,7 @@ Portfolio setup is a project showing the skills, experience that i have and also
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- Currently Live Demo link is not available.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +125,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
  
- A text editor
+  Create a repository and copy the link to local storage by clickin the code button.
 
 <!--
 Example command:
@@ -137,10 +139,9 @@ Example command:
 
 Clone this repository to your desired folder:
 
+  Clone your folder in your choosen directory by using the command 'git clone + link copied'
+  Make sure the file is copied
 
-
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
 
 <!--
 Example commands:
@@ -156,7 +157,7 @@ Example commands:
 Install this project with:
 
 
-Use visual code to install
+Use visual code to install and ensure you have a browser preferably chrome browser.
 
 <!--
 Example command:
@@ -172,7 +173,7 @@ Example command:
 To run the project, execute the following command:
 
 
-To run the project you need to make use of git commands and github
+To run the project you need to make use of git commands such as git add , git pull and git command
 
 <!--
 Example command:
@@ -187,7 +188,7 @@ Example command:
 To run tests, run the following command:
 
 
-run the html file
+Open the project to run the test
 
 <!--
 Example command:
@@ -201,8 +202,7 @@ Example command:
 
 You can deploy this project using:
 
-
-index.html
+The project need a code review to be deployed
 
 
 <!--
@@ -235,6 +235,7 @@ Example:
 
 - Working on adding a demo of my projects. 
 - Working towards adding a contact form.
+- Working on adding my Live Demo link. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -278,13 +279,13 @@ I would like to thank my mentor who realy helped alot.
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- How to follow GitHub flow.
 
-  - [Answer_1]
+  - Follow the instructions given by microverse
 
-- **[Question_2]**
+- How to request for a code review
 
-  - [Answer_2]
+  - Submit a copy of a link to student dashboard to request for a review.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
