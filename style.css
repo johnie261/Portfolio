@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -23,10 +23,12 @@ body {
 .heading {
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 44px;
   color: #172b4d;
   text-transform: capitalize;
+
+
 }
 
 .btn {
@@ -183,9 +185,10 @@ body {
 .work .box p {
   font-style: normal;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 24px;
   color: #344563;
+
 }
 
 .work .box .tags {
@@ -232,18 +235,21 @@ body {
 .about .about_myself h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   text-transform: capitalize;
+  font-family: 'Poppins';
 }
 
 .about .about_myself p {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   color: #344563;
+  width: 327px;
+  font-family: 'Poppins';
 }
 
 .about .about_myself .conn {
@@ -317,18 +323,18 @@ body {
 .about .skills_list .box-side h3 {
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
-  color: #000;
   text-transform: capitalize;
+  font-size: 20px;
+  color: #000000;
 }
 
 .about .skills_list .box .lang h3 {
   height: 24px;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
-  color: #000;
   text-transform: capitalize;
+  font-size: 20px;
+  color: #000000;
 }
 
 .about .skills_list .box .box_drop ul {
