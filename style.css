@@ -144,7 +144,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
   gap: 12px;
   list-style: none;
   text-transform: capitalize;
@@ -192,16 +191,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
   gap: 8px;
   list-style: none;
   text-transform: lowercase;
+
 }
 
 .work .box .tags .language {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -210,7 +206,9 @@ body {
   font-size: 12px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  
 }
+
 
 .about {
   display: grid;
