@@ -194,7 +194,6 @@ body {
   gap: 8px;
   list-style: none;
   text-transform: lowercase;
-
 }
 
 .work .box .tags .language {
@@ -206,9 +205,7 @@ body {
   font-size: 12px;
   letter-spacing: 0.03em;
   color: #6070ff;
-  
 }
-
 
 .about {
   display: grid;
@@ -303,6 +300,7 @@ body {
   padding: 0;
   gap: 12px;
   margin: 24px;
+  margin-bottom: 113px;
 }
 
 .about .skills_list .box .lang {
@@ -367,4 +365,75 @@ body {
   width: 327px;
   padding: 24px 12px;
   border-bottom: 1px solid #dfe1e6;
+}
+
+.contact {
+  background: #6070ff;
+  border-top-left-radius: 75px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(unt/contact\ form\ shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  padding-bottom: 12px;
+  color: #fff;
+  margin-top: 103px;
+}
+
+.content {
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  padding: 0 24px 0 24px;
+  margin-bottom: 50px;
+}
+
+#name,
+#email {
+  margin-bottom: 20px;
+  width: 327px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding-left: 15px;
+}
+
+#text-box {
+  width: 327px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+  resize: none;
+}
+
+.submit .button {
+  padding: 16px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #6070ff;
+  text-transform: capitalize;
+  width: 140px;
+  background: #fff;
+  margin-top: 22px;
+  margin-bottom: 45px;
+}
+
+.submit .button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 1px solid #cfd8dc;
 }
