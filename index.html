@@ -212,7 +212,7 @@
     <section class="contact">
         
         <div class="title">
-            <h2>contact me</h2>
+            <p>contact me</p>
         </div>
 
         <div class="content">
@@ -220,10 +220,20 @@
         </div>
 
         <form action="" method="post">
-            <input type="text" maxlength="30" placeholder="Enter your name" required>
-            <input type="email" placeholder="Enter your email" required>
-            <textarea name="name" id="" cols="30" rows="10" placeholder="Enter your text" maxlength="500" required></textarea>
-            <input type="submit" value="Get in touch">
+            <div class="name">
+                <label for="name"></label>
+                <input id="name" name="name" type="text" maxlength="30" placeholder="Enter your name" required>
+            </div>
+            <div class="mail">
+                <label for="email"></label>
+                <input type="email" id="name" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="text">
+                <textarea name="name" id="textbox" cols="49" rows="7" placeholder="Enter your text" maxlength="500" required></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Get in touch">
+            </div>
         </form>
 
     </section>
