@@ -194,7 +194,6 @@ body {
   gap: 8px;
   list-style: none;
   text-transform: lowercase;
-
 }
 
 .work .box .tags .language {
@@ -206,9 +205,7 @@ body {
   font-size: 12px;
   letter-spacing: 0.03em;
   color: #6070ff;
-  
 }
-
 
 .about {
   display: grid;
@@ -370,13 +367,12 @@ body {
   border-bottom: 1px solid #dfe1e6;
 }
 
-
 .contact {
-  background: #6070FF;
+  background: #6070ff;
   border-top-left-radius: 75px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -395,16 +391,17 @@ body {
 }
 
 .content {
-color: #EBEBFF;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-text-align: center;
-padding: 0 24px 0 24px;
-margin-bottom: 50px;
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  padding: 0 24px 0 24px;
+  margin-bottom: 50px;
 }
 
-#name, #email {
+#name,
+#email {
   margin-bottom: 20px;
   width: 327px;
   height: 48px;
@@ -421,8 +418,7 @@ margin-bottom: 50px;
   resize: none;
 }
 
-
-.submit input{
+.submit .button {
   padding: 16px;
   font-size: 17px;
   line-height: 24px;
@@ -436,9 +432,8 @@ margin-bottom: 50px;
   margin-bottom: 45px;
 }
 
-.submit input:hover{
+.submit .button:hover {
   background-color: #6070ff;
   color: #fff;
   border: 1px solid #cfd8dc;
 }
-
