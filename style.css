@@ -15,102 +15,96 @@ body {
   margin: auto;
 }
 
-
-.headr{
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    background: #fff;
-    padding: 26px 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.headr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 26px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.headr .logo{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: #6070FF;
+.headr .logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
 }
 
-.headr .logo .menuBtn{
-    display: none;
+.headr .logo .menuBtn {
+  display: none;
 }
 
-.headr .navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
+.headr .navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
 }
 
-.headr .navbar .menuBtn{
-    display: none;
+.headr .navbar .menuBtn {
+  display: none;
 }
 
-.headr .navbar a{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;    
-    color: #344563;
+.headr .navbar a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
 }
 
-
-
-.headline{
-    height: 846px;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    background: #fff;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 0 260px 0 260px;
-    padding-top: 287px;
-    padding-bottom: 243px;
-    background-image: url(unt/Header\ bg.png);
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
-
-
-
+.headline {
+  height: 846px;
+  justify-content: center;
+  gap: 12px;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 260px 0 260px;
+  padding-top: 287px;
+  padding-bottom: 243px;
+  background-image: url(unt/Header\ bg.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
-.headline h1{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.37px;
-    color: #091E42;
-    padding-bottom: 12px;
+.headline h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  color: #091e42;
+  padding-bottom: 12px;
 }
 
-.headline p{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    color: #344563;
-    padding-bottom: 12px;
+.headline p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #344563;
+  padding-bottom: 12px;
 }
 
-.headline  a{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7F8CFF;
+.headline .connct {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
-.headline .list{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-top: 12px;
-    gap: 12px;
+.headline .list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 12px;
+  gap: 12px;
 }
 
 .work {
@@ -122,40 +116,38 @@ body {
   background: #f7f7f9;
 }
 
-.work .box{
+.work .box {
   display: grid;
   grid-template-columns: 544px 544px;
   gap: 22px;
   text-align: center;
   align-items: center;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 24px;
 }
 
-.work .box .image{
-  margin: 24px 0px 24px 22px;
+.work .box .image {
+  margin: 24px 0 24px 22px;
 }
 
-.work .box .image img{
+.work .box .image img {
   width: 520px;
   height: 460px;
 }
 
-
-.work .box .content{
+.work .box .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 24px;
   gap: 24px;
-  margin: 24px 22px 27px 0px;
+  margin: 24px 22px 27px 0;
   width: 520px;
   height: 450px;
 }
 
-
-.work .box .content .heading{
+.work .box .content .heading {
   display: flex;
   text-transform: capitalize;
   align-self: flex-start;
@@ -164,21 +156,21 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #091E42;
+  color: #091e42;
 }
 
-.work .box .content .exper{
+.work .box .content .exper {
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 297px;
   height: 40px;
 }
 
-.work .box .content .exper .comp{
+.work .box .content .exper .comp {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
@@ -186,16 +178,15 @@ body {
   text-transform: capitalize;
 }
 
-
-.work .box .content .exper .comp1{
+.work .box .content .exper .comp1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #6B778C;
+  color: #6b778c;
   text-transform: capitalize;
 }
 
-.work .box .content p{
+.work .box .content p {
   display: flex;
   text-align: left;
   width: 496px;
@@ -206,96 +197,90 @@ body {
   color: #344563;
 }
 
-
-.work .box .content .tags{
+.work .box .content .tags {
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
 }
 
-.work .box .content .tags .language{
+.work .box .content .tags .language {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  width: 53px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   width: 100%;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
+  text-transform: lowercase;
 }
 
-.btn{
-    margin-bottom: 140px;
-    padding: 12px;
-    width: 124px;
-    border: 1px solid #6070FF;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    text-transform: capitalize;
-    letter-spacing: 0.03em;
-    background: #fff;
-    color: #396DF2;
+.btn {
+  margin-bottom: 140px;
+  padding: 12px;
+  width: 124px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: capitalize;
+  letter-spacing: 0.03em;
+  background: #fff;
+  color: #396df2;
 }
 
-.btn:hover{
+.btn:hover {
   color: #fff;
-  background: #396DF2;
-} 
+  background: #396df2;
+}
 
-
-
-
-.work .box1{
+.work .box1 {
   display: grid;
   grid-template-columns: 544px 544px;
   grid-column: 2;
   gap: 22px;
   text-align: center;
   align-items: center;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 24px;
 }
 
-.work .box1 .image{
+.work .box1 .image {
   flex: 1 1 17rem;
-  margin: 24px 22px 27px 0px;
+  margin: 24px 22px 27px 0;
   order: 2;
 }
 
-.work .box1 .image img{
+.work .box1 .image img {
   width: 520px;
   height: 450px;
 }
 
-
-.work .box1 .content{
+.work .box1 .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 24px;
   gap: 24px;
   flex: 1 1 17rem;
-  margin: 24px 0px 24px 22px;
+  margin: 24px 0 24px 22px;
   height: 450px;
   width: 520px;
 }
 
-
-.work .box1 .content .heading{
+.work .box1 .content .heading {
   display: flex;
   align-self: flex-start;
   width: 496px;
@@ -304,21 +289,21 @@ body {
   font-size: 40px;
   line-height: 52px;
   text-transform: capitalize;
-  color: #091E42;
+  color: #091e42;
 }
 
-.work .box1 .content .exper{
+.work .box1 .content .exper {
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 297px;
   height: 40px;
 }
 
-.work .box1 .content .exper .comp{
+.work .box1 .content .exper .comp {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
@@ -326,16 +311,15 @@ body {
   text-transform: capitalize;
 }
 
-
-.work .box1 .content .exper .comp1{
+.work .box1 .content .exper .comp1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #6B778C;
+  color: #6b778c;
   text-transform: capitalize;
 }
 
-.work .box1 .content p{
+.work .box1 .content p {
   display: flex;
   text-align: left;
   width: 496px;
@@ -346,52 +330,46 @@ body {
   color: #344563;
 }
 
-
-.work .box1 .content .tags{
+.work .box1 .content .tags {
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
 }
 
-.work .box1 .content .tags .language{
+.work .box1 .content .tags .language {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  width: 53px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   width: 100%;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-
-.about{
+.about {
   display: flex;
   justify-content: center;
-  background: #FFFFFF;
+  background: #fff;
   border-top-right-radius: 169px;
 }
-
 
 .about-box {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 0px;
-  margin: 0px;
-  gap: 25px; 
- 
-
+  padding: 0;
+  margin: 0;
+  gap: 25px;
 }
 
 .about-box .about_myself {
@@ -401,7 +379,6 @@ body {
   gap: 12px;
   padding-top: 142px;
   margin-bottom: 134px;
-  
 }
 
 .about-box .about_myself h1 {
@@ -413,10 +390,9 @@ body {
   text-transform: capitalize;
   width: 447px;
   height: 114px;
-  color: #091E42;
 }
 
-.about .about_myself p {
+.about .about_myself .about-me {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -425,7 +401,6 @@ body {
   width: 327px;
   width: 447px;
   height: 102px;
- 
 }
 
 .about .about_myself .conn {
@@ -478,7 +453,7 @@ body {
   margin-top: 24px;
 }
 
-.about .about_myself input:hover{
+.about .about_myself input:hover {
   background: #396df2;
   color: #fff;
 }
@@ -489,7 +464,7 @@ body {
   align-items: flex-start;
   padding: 0;
   gap: 12px;
-  margin-top: 142px 142px 0px 0px;
+  margin-top: 142px 142px 0 0;
   margin-bottom: 166px;
   padding-top: 142px;
 }
@@ -499,7 +474,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 684px;
-
   padding: 24px 12px;
 }
 
@@ -536,10 +510,9 @@ body {
   flex-direction: column;
   width: 122px;
   height: 120px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   gap: 16px;
-  border-radius: 8px;
   margin: 12px;
   padding: 9px;
 }
@@ -568,9 +541,6 @@ body {
   border-bottom: 1px solid #dfe1e6;
 }
 
-
-
-
 .contact {
   background: #6070ff;
   border-top-left-radius: 120px;
@@ -594,7 +564,7 @@ body {
   margin-top: 142px;
 }
 
-.content {
+.contentt {
   color: #ebebff;
   font-size: 20px;
   font-weight: 400;
@@ -604,7 +574,6 @@ body {
   margin-bottom: 10px;
   width: 569px;
   height: 102px;
-
 }
 
 #name,
@@ -625,7 +594,7 @@ body {
   resize: none;
 }
 
-.submit{
+.submit {
   display: flex;
   justify-content: center;
 }
@@ -651,158 +620,121 @@ body {
   border: 1px solid #cfd8dc;
 }
 
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 55%;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1250px) {
-
-    html{
-        font-size: 55%;
-    }
-
-    .headline{
+  .headline {
     padding: 150px;
+  }
 
-    }
+  .work .box {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+  }
 
+  .work .box .image img {
+    width: 425px;
+    height: 420px;
+  }
 
-    .work .box {
-      display: grid;
-      grid-template-columns: 450px 450px;
-      justify-content: center;
-      gap: 12px;
-      background: #fff;
-    }
+  .work .box .content {
+    width: 450px;
+    margin-right: 15px;
+  }
 
-    .work .box .image img{
-      width: 425px;
-      height: 420px;
-    }
+  .work .box .content .heading {
+    width: 100%;
+  }
 
-    .work .box .content{
-      width: 450px;
-      margin-right: 15px;
-    }
+  .work .box .content p {
+    width: 100%;
+  }
 
-    .work .box .content .heading{
-      width: 100%;
-    }
+  .work .box1 {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+    width: 930px;
+  }
 
-    .work .box .content p{
-      width: 100%;
-    }
+  .work .box1 .image img {
+    width: 425px;
+    height: 420px;
+  }
 
-    
+  .work .box1 .image {
+    margin: 15px;
+  }
 
-    .work .box1 {
-      display: grid;
-      grid-template-columns: 450px 450px;
-      justify-content: center;
-      gap: 12px;
-      background: #fff;
-      width: 930px;
-    }
+  .work .box1 .content {
+    width: 450px;
+    margin: 15px;
+  }
 
-    .work .box1 .image img{
-      width: 425px;
-      height: 420px;
-    }
+  .work .box1 .content .heading {
+    width: 100%;
+  }
 
-    .work .box1 .image{
-      margin: 15px;
-    }
+  .work .box1 .content p {
+    width: 100%;
+  }
 
-    .work .box1 .content {
-      width: 450px;
-      margin: 15px;
-    }
+  .about-box {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+    width: 100%;
+  }
 
-    .work .box1 .content .heading{
-      width: 100%;
-    }
+  .about-box .about_myself {
+    padding: 0;
+    gap: 12px;
+    margin: 24px;
+    width: 450px;
+  }
 
-    .work .box1 .content p{
-      width: 100%;
-    }
-  
+  .about .about_myself .about-me {
+    font-size: 16px;
+    width: 100%;
+  }
 
+  .about .skills_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-top: 0;
+    width: 450px;
+    margin: 24px;
+  }
 
+  .about .skills_list .box .lang {
+    width: 100%;
+  }
 
-    .about-box {
-      display: grid;
-      grid-template-columns: 450px 450px;
-      justify-content: center;
-      gap: 12px;
-      background: #fff;
-      width: 100%;
-    }
+  .about .skills_list .box .box_drop ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
 
-    .about-box .about_myself {
-      padding: 0;
-      gap: 12px;
-      margin: 24px;
-      width: 450px;
-    }
-
-    .about .about_myself p {
-      font-size: 16px;
-      width: 100%;
-
-    }
-    
-    .about .skills_list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-      padding-top: 0;
-      width: 450px;
-      margin: 24px;
-    }
-
-    .about .skills_list .box .lang {
-      width: 100%;
-    }
-
-    .about .skills_list .box .box_drop ul {
-      list-style: none;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 12px;
-
-    }
-
-    .about .skills_list .box-side {
-      width: 100%;
-
-    }
-    
-
+  .about .skills_list .box-side {
+    width: 100%;
+  }
 }
 
-
-
-
-
-
-
-@media screen and (max-width:998px) {
-
-
-  
-
+@media screen and (max-width: 998px) {
   .about-box {
     display: flex;
     flex-direction: column;
@@ -819,9 +751,8 @@ body {
     padding: 12px;
     gap: 12px;
     height: 300px;
-
   }
-  
+
   .about .skills_list .box .box_drop ul li {
     display: flex;
     flex-direction: row;
@@ -830,7 +761,6 @@ body {
     border-radius: 8px;
     width: 100%;
     margin-top: 12px;
-
   }
 
   .work .box {
@@ -842,23 +772,24 @@ body {
     background: #fff;
   }
 
-  .work .box .image{
+  .work .box .image {
     margin: 16px 16px;
     width: 95%;
   }
 
-  .work .box .image img{
+  .work .box .image img {
     width: 100%;
   }
 
-  .work .box .content{
+  .work .box .content {
     width: 95%;
-    margin-top: 12px;
+    padding-top: 0;
+    margin-top: 0;
+    column-gap: 12px;
   }
 
   .work .box1 {
     display: flex;
-    flex-direction: column;
     flex-flow: column-reverse;
     width: 100%;
     justify-content: center;
@@ -866,315 +797,274 @@ body {
     background: #fff;
   }
 
-  .work .box1 .image{
+  .work .box1 .image {
     margin: 16px 16px;
     width: 95%;
   }
 
-  .work .box1 .image img{
+  .work .box1 .image img {
     width: 100%;
-  
   }
 
-  .work .box1 .content{
+  .work .box1 .content {
     width: 95%;
-    margin-top: 12px;
+    padding-top: 0;
+    margin-top: 0;
   }
-  
-  
 }
 
+@media screen and (max-width: 768px) {
+  .headr {
+    padding: 14px 7%;
+  }
 
+  .headr .logo .menuBtn {
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 90%;
+  }
 
+  .headr .navbar {
+    flex-flow: column;
+    padding: 2rem;
+    display: none;
+  }
 
+  .headline {
+    background-image: url(unt/header-shapes\ mobile.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 114px 24px;
+  }
 
+  .work .box,
+  .work .box1 {
+    width: 500px;
+  }
 
+  .work .box .content .heading,
+  .work .box1 .content .heading {
+    font-size: 32px;
+  }
 
+  .work .box .content {
+    height: 325px;
+  }
 
-@media screen and (max-width:768px){
+  .work .box1 .content {
+    height: 325px;
+  }
 
-    .headr{
-        padding: 14px 7%;
-    }
-    
-    .headr .logo .menuBtn{
-        display: inline-block;
-        position: absolute;
-        top: 13px; left: 90%;
-    }
+  .contact {
+    border-top-left-radius: 75px;
+  }
 
-    .headr .navbar{
-        flex-flow: column;
-        padding: 2rem;
-        display: none;
-    }
+  .title {
+    margin-top: 103px;
+  }
 
+  .contentt {
+    margin-bottom: 100px;
+    width: 327px;
+  }
 
-    .headline {
-        padding: 114px 24px;
-    }
+  #name,
+  #email,
+  #text-box {
+    width: 327px;
+  }
 
-    .headline{
-      background-image: url(unt/header-shapes\ mobile.png);
-      background-position: right;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+  .submit {
+    display: flex;
+    justify-content: flex-start;
+  }
 
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: #fff;
+  }
 
-     .work .box,
-     .work .box1{
-      width: 500px
-     }
+  .about-box .about_myself {
+    padding: 0;
+    gap: 12px;
+    margin: 24px;
+    margin-top: 114px;
+  }
 
-     .work .box .content .heading,
-     .work .box1 .content .heading{
-      font-size: 32px;
-     }
+  .about .skills_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 113px;
+    padding-top: 0;
+  }
 
-     .work .box .content .exper comp,
-     .work .box1 .content .exper comp{
-        font-size: 13;
-     }
+  .about .skills_list .box .lang {
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px 12px;
+  }
 
-     .work .box .content .exper comp1,
-     .work .box1 .content .exper comp1{
-        font-size: 13;
-     }
+  .about .skills_list .box .box_drop ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+    height: 300px;
+  }
 
-     .work .box .content p,
-     .work .box1 .content p{
-      margin-bottom: 20px;
-     }
-  
-
-
-
-
-
-
-      .contact {
-        border-top-left-radius: 75px;
-      }
-
-      .title {
-        margin-top: 103px;
-      }
-
-      .content {
-        margin-bottom: 100px;
-        width: 327px;
-      }
-
-      #name,
-      #email,
-      #text-box {
-        width: 327px;
-      }
-
-      .submit{
-        display: flex;
-        justify-content: flex-start;
-      }
-
-
-      .about-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        background: #fff;
-      }
-      
-      
-      .about-box .about_myself {
-        padding: 0;
-        gap: 12px;
-        margin: 24px;
-        margin-top: 114px;
-      }
-      
-
-      .about .skills_list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        margin-bottom: 113px;
-        padding-top: 0;
-      }
-      
-      .about .skills_list .box .lang {
-        display: flex;
-        flex-direction: flex-start;
-        justify-content: space-between;
-        width: 100%;
-        padding: 24px 12px;
-      }
-      
-      
-      .about .skills_list .box .box_drop ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 12px;
-        gap: 12px;
-        height: 300px;
-
-      }
-      
-      
-      .about .skills_list .box-side {
-        width: 100%;
-
-      }
-
-      .container {
-        background-image: url(unt/contact\ form\ shapes-mobile.svg);
-        background-repeat: no-repeat;
-        background-position: right;
-        object-fit: cover;
-      
-
+  .about .skills_list .box-side {
+    width: 100%;
+  }
 }
 
-}
-      
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
 
+  .headline {
+    background-image: url(unt/header-shapes\ mobile.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+  .container {
+    background-image: url(unt/contact\ form\ shapes-mobile.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
 
+  .work .box,
+  .work .box1 {
+    width: 325px;
+  }
 
-@media screen and (max-width:500px) {
-    html{
-        font-size: 50%;
-    }
-      .headline{
-        background-image: url(unt/header-shapes\ mobile.png);
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      
-      .container {
-        background-image: url(unt/contact\ form\ shapes-mobile.svg);
-        background-repeat: no-repeat;
-        object-fit: cover;
-        
-      }
+  .work .box .image img,
+  .work .box1 .image img {
+    width: 295px;
+    height: 220px;
+  }
 
-      .work .box,
-     .work .box1{
-      width: 325px
-     }
+  .work .box1 .content .heading {
+    display: flex;
+    text-align: start;
+    font-size: 32px;
+    width: 250px;
+    height: 80px;
+  }
 
-     .work .box .image img,
-     .work .box1 .image img{
-      width: 295px;
-      height: 220px;
-     }
+  .work .box .content .exper,
+  .work .box1 .content .exper {
+    gap: 8px;
+  }
 
+  .work .box .content .exper .comp,
+  .work .box1 .content .exper .comp {
+    font-size: 13px;
+    color: #344563;
+  }
 
+  .work .box .content .exper .comp1,
+  .work .box1 .content .exper .comp1 {
+    font-size: 13px;
+  }
 
-     .work .box1 .content .heading{
-      display: flex;
-      text-align: start;
-      font-size: 32px;
-      width: 250px;
-      height: 80px;
+  .work .box .content .btn {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    font-size: 17px;
+  }
 
-     }
+  .work .box .content .exper {
+    margin-top: -20px;
+  }
 
-     .work .box .content .exper,
-     .work .box1 .content .exper{
-      gap: 8px;
-     }
+  .work .box .content p {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
 
-     .work .box .content .exper comp,
-     .work .box1 .content .exper comp{
-      font-size: 8px;
-     }
+  .work .box1 .content p {
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
 
-     .work .box .content .exper comp1,
-     .work .box1 .content .exper comp1{
-      font-size: 8px;
-     }
+  .work .box .content {
+    height: 290px;
+  }
 
-     .work .box .content .btn{
-      margin-bottom: 24px;
-      padding-bottom: 20px;
-     }
+  .work .box1 .content {
+    height: 350px;
+  }
 
+  .about-box {
+    margin: 7px;
+    width: 100%;
+  }
 
+  .about-box .about_myself {
+    width: 100%;
+    padding: 20px;
+  }
 
+  .about-box .about_myself h1 {
+    font-size: 35px;
+    width: 100%;
+  }
 
-      .about-box {
-        margin: 7px;
-        width: 100%;
-      }
-      
-      
-      .about-box .about_myself {
-        width: 100%;
-        padding: 20px;
-      }
+  .about .about_myself .about-me {
+    font-size: 16px;
+    width: 100%;
+  }
 
-      .about-box .about_myself h1 {
-        font-size: 35px;
-        width: 100%;
-      }
-      
-      .about .about_myself p {
-        font-size: 16px;
-        width: 100%;
+  .about .about_myself .conn .connect {
+    margin-top: 19px;
+  }
 
-      }
+  .about .skills_list {
+    width: 100%;
+  }
 
-      .about .about_myself .conn .connect{
-        margin-top: 19px;
-      }
-      
+  .about .skills_list .box .lang {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 24px 12px;
+  }
 
-      .about .skills_list {
-        width: 100%;
-      }
-      
-      .about .skills_list .box .lang {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        padding: 24px 12px;
-      }
-      
-      
-      .about .skills_list .box .box_drop ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 12px;
-        gap: 12px;
+  .about .skills_list .box .box_drop ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+  }
 
-      }
-      
-      .about .skills_list .box .box_drop ul li {
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-        background: #f7f7f9;
-        border-radius: 8px;
-        margin-top: 12px;
-        width: 70%;
+  .about .skills_list .box .box_drop ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-top: 12px;
+    width: 70%;
+  }
 
-      }
-      
-      
-      .about .skills_list .box-side {
-        width: 100%;
-
-      }
-     
-
-       
+  .about .skills_list .box-side {
+    width: 100%;
+  }
 }
