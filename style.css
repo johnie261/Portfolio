@@ -16,7 +16,7 @@ body {
 }
 
 .headr {
-/*  position: fixed;
+  /*  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -28,13 +28,12 @@ body {
   justify-content: space-between;
 }
 
-.headr .logo .log{
+.headr .logo .log {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
   margin-left: 60px;
-  
 }
 
 .headr .logo .menuBtn {
@@ -49,7 +48,6 @@ body {
   gap: 32px;
   margin-right: 60px;
 }
-
 
 .headr .navbar a {
   font-style: normal;
@@ -383,7 +381,7 @@ body {
   margin-bottom: 134px;
 }
 
-.about-box .about_myself p{
+.about-box .about_myself .title-me {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -737,12 +735,11 @@ body {
 }
 
 @media screen and (max-width: 998px) {
-
-  .headline{
-  background-image: url(unt/Header\ bg.png);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
+  .headline {
+    background-image: url(unt/Header\ bg.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .about-box {
@@ -828,7 +825,7 @@ body {
     padding: 14px 7%;
   }
 
-  .headr .logo .log{
+  .headr .logo .log {
     margin-left: -10px;
   }
 
