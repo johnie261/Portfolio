@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -16,10 +16,11 @@ body {
 }
 
 .headr {
-  position: fixed;
+/*  position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  */
   background: #fff;
   padding: 26px 7%;
   display: flex;
@@ -27,11 +28,13 @@ body {
   justify-content: space-between;
 }
 
-.headr .logo {
+.headr .logo .log{
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
+  margin-left: 60px;
+  
 }
 
 .headr .logo .menuBtn {
@@ -43,18 +46,17 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 8px;
+  gap: 32px;
+  margin-right: 60px;
 }
 
-.headr .navbar .menuBtn {
-  display: none;
-}
 
 .headr .navbar a {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   color: #344563;
+  text-transform: capitalize;
 }
 
 .headline {
@@ -70,8 +72,8 @@ body {
   padding-top: 287px;
   padding-bottom: 243px;
   background-image: url(unt/Header\ bg.png);
-  background-size: cover;
   background-position: right;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -381,7 +383,7 @@ body {
   margin-bottom: 134px;
 }
 
-.about-box .about_myself h1 {
+.about-box .about_myself p{
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -735,6 +737,14 @@ body {
 }
 
 @media screen and (max-width: 998px) {
+
+  .headline{
+  background-image: url(unt/Header\ bg.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
   .about-box {
     display: flex;
     flex-direction: column;
@@ -818,10 +828,14 @@ body {
     padding: 14px 7%;
   }
 
+  .headr .logo .log{
+    margin-left: -10px;
+  }
+
   .headr .logo .menuBtn {
     display: inline-block;
     position: absolute;
-    top: 13px;
+    top: 25px;
     left: 90%;
   }
 
