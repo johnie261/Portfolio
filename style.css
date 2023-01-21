@@ -47,6 +47,11 @@ body {
   padding: 0;
   gap: 32px;
   margin-right: 60px;
+  transition: text-decoration  1s; /* animation changes */
+}
+
+.headr .navbar:hover {
+  text-decoration: underline;
 }
 
 .headr .navbar a {
@@ -73,6 +78,20 @@ body {
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
+  animation-duration: 4s;
+  animation-name: headtext;
+}
+
+@keyframes headtext {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .headline h1 {
@@ -125,6 +144,10 @@ body {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
+}
+
+.work .box:hover {
+  box-shadow: 1px 1px 3px grey;
 }
 
 .work .box .image {
@@ -243,6 +266,7 @@ body {
 .btn:hover {
   color: #fff;
   background: #396df2;
+  cursor: pointer;
 }
 
 .work .box1 {
@@ -255,6 +279,10 @@ body {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
+}
+
+.work .box1:hover {
+  box-shadow: 1px 1px 3px grey;
 }
 
 .work .box1 .image {
@@ -461,7 +489,7 @@ body {
 .about .skills_list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
   padding: 0;
   gap: 12px;
   margin-top: 142px 142px 0 0;
@@ -473,7 +501,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 684px;
   padding: 24px 12px;
 }
 
@@ -618,6 +645,7 @@ body {
   background-color: #6070ff;
   color: #fff;
   border: 1px solid #cfd8dc;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1250px) {
