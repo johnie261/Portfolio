@@ -47,6 +47,12 @@ body {
   padding: 0;
   gap: 32px;
   margin-right: 60px;
+  transition: text-decoration  1s; /* animation changes */
+}
+
+.navbar a:hover {                 /* animation changes */
+  text-decoration: underline;
+  color: red;
 }
 
 .headr .navbar a {
@@ -55,6 +61,7 @@ body {
   font-size: 15px;
   color: #344563;
   text-transform: capitalize;
+  transition: color 1s ;     /*animation changes */
 }
 
 .headline {
