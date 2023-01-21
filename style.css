@@ -77,16 +77,16 @@ body {
   animation-name: headtext;
 }
 
-@keyframes headtext{
-  from{
-  margin-left: 100%;
-  width: 300%;
-}
+@keyframes headtext {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
 
-to {
-  margin-left: 0%;
-  width: 100%;
-}
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .headline h1 {
@@ -141,10 +141,10 @@ to {
   border-radius: 24px;
 }
 
- .work .box:hover,
- .work .box1:hover{
+.work .box:hover,
+.work .box1:hover {
   box-shadow: 1px 1px 3px grey;
- }
+}
 
 .work .box .image {
   margin: 24px 0 24px 22px;
@@ -488,7 +488,6 @@ to {
   margin-bottom: 166px;
   padding-top: 142px;
 }
-
 
 .about .skills_list .box .lang {
   display: flex;
@@ -855,7 +854,6 @@ to {
     position: absolute;
     top: 25px;
     left: 90%;
-
   }
 
   .headr .navbar {
