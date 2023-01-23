@@ -75,8 +75,7 @@ Portfolio setup is a project showing the skills, experience that i have and also
 ### Key Features <a name="key-features"></a>
 
 
-- Menu bar
-- navigation bar
+- The website is fully responsive for both mobile and desktop.
 - Projects done
 - My social media accounts
 
@@ -87,8 +86,9 @@ Portfolio setup is a project showing the skills, experience that i have and also
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+> Here you can see the live demo of my project:
 
-- Currently Live Demo link is not available.
+- [Live Demo Link](https://johnie261.github.io/portfolio-setup-and-mobile-first-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,9 +213,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Working on adding a demo of my projects. 
-- Working towards adding a contact form.
-- Working on adding my Live Demo link. 
+- Working on adding more of my projects. 
+- Adding Javascript implementation.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
