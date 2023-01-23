@@ -497,11 +497,17 @@ body {
   padding-top: 142px;
 }
 
+.about .skills_list .box{
+  padding: 24px 12px;
+  width: 100%;
+}
+
 .about .skills_list .box .lang {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 24px 12px;
+  padding-left: 0px;
 }
 
 .about .skills_list .box-side h3 {
@@ -747,6 +753,7 @@ body {
 
   .about .skills_list .box .lang {
     width: 100%;
+    padding-left: 0px;
   }
 
   .about .skills_list .box .box_drop ul {
@@ -777,6 +784,8 @@ body {
     gap: 12px;
     background: #fff;
   }
+
+  
 
   .about .skills_list .box .box_drop ul {
     list-style: none;
@@ -949,7 +958,6 @@ body {
     flex-direction: flex-start;
     justify-content: space-between;
     width: 100%;
-    padding: 24px 12px;
   }
 
   .about .skills_list .box .box_drop ul {
@@ -1077,20 +1085,11 @@ body {
   }
 
   .about .skills_list .box .lang {
-    display: flex;
-    justify-content: space-around;
     width: 100%;
-    padding: 24px 12px;
   }
 
   .about .skills_list .box .box_drop ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 12px;
-    gap: 12px;
+    width: 100%;
   }
 
   .about .skills_list .box .box_drop ul li {
@@ -1100,7 +1099,7 @@ body {
     background: #f7f7f9;
     border-radius: 8px;
     margin-top: 12px;
-    width: 70%;
+    width: 100%;
   }
 
   .about .skills_list .box-side {
