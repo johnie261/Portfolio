@@ -7,20 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 <body>   
 
     <header class="headr">
 
         <div class="logo">
-            <a href="#home" class="log">John</a>
-            <a href="#" class="menuBtn"><img src="unt/Union.png" alt=""></a>
+            <a href="#" class="log">John</a>
+            <a href="#" class="fas fa-bars"></a>
         </div>
 
         <nav class="navbar">
-            <a href="#">portfolio</a>
-            <a href="#">about</a>
-            <a href="#">contact</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
             </nav>
         </nav>
     
@@ -43,12 +46,8 @@
  
         </div>
     </section>
-
-
-   
-    
-
-    <section class="work">
+ 
+    <section class="work" id="portfolio">
 
         <div class="box">
             <div class="image">
@@ -74,7 +73,6 @@
                 <input type="submit" value="see project" class="btn">
             </div>    
         </div>
-
 
         <div class="box1">
             <div class="image">
@@ -157,13 +155,7 @@
 
     </section>
 
-
-
-
-
-
-
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-box">
             <div class="about_myself">
                 <p class="title-me">about <br> myself</p>
@@ -194,27 +186,26 @@
 
                 <div class="box">
                     
-                            <div class="lang">  
-                                <h3>languages</h3>
-                                <img src="unt/Union.svg" alt="">
-                            </div>
-                            <div class="box_drop">
-
-                                <ul>
-                                    <li>
-                                        <img src="unt/Ellipse 1.png" alt="">
-                                        <p>Javascript</p>
-                                    </li>
-                                    <li>
-                                        <img src="unt/Ellipse 1 (1).png" alt="">
-                                        <p>HTML</p>
-                                    </li>
-                                    <li>
-                                        <img src="unt/Ellipse 1 (2).png" alt="">
-                                        <p>css</p>
-                                    </li>
-                                </ul>
-                            </div>   
+                    <div class="lang">  
+                        <h3>languages</h3>
+                        <img src="unt/Union.svg" alt="">
+                    </div>
+                    <div class="box_drop">
+                        <ul>
+                            <li>
+                                <img src="unt/Ellipse 1.png" alt="">
+                                <p>Javascript</p>
+                            </li>
+                            <li>
+                                <img src="unt/Ellipse 1 (1).png" alt="">
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <img src="unt/Ellipse 1 (2).png" alt="">
+                                <p>css</p>
+                            </li>
+                        </ul>
+                    </div>   
                 </div>
     
                 <div class="box-side">
@@ -231,14 +222,7 @@
         </div>
     </section>
 
-
-
-
-
-
-
-
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             
             <div class="title">
@@ -269,11 +253,5 @@
 
         </div>
     </section>
-
-
-    
-
-    
-
 
 </body>
