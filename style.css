@@ -627,6 +627,12 @@ body {
   resize: none;
 }
 
+#name:focus,
+#email:focus,
+#text-box:focus {
+  border: 2px solid #ff702e;
+}
+
 .submit {
   display: flex;
   justify-content: center;
