@@ -31,9 +31,17 @@ body {
   margin-left: 60px;
 }
 
+.headr .logo .log:hover {
+  text-decoration: underline;
+}
+
+.headr .logo .log:active {
+  color: #472999;
+}
+
 .headr .logo .fa-bars {
   display: none;
-  font-size: 23px;
+  font-size: 2.7rem;
 }
 
 .headr .navbar {
