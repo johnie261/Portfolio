@@ -16,11 +16,6 @@ body {
 }
 
 .headr {
-  /*  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  */
   background: #fff;
   padding: 26px 7%;
   display: flex;
@@ -36,8 +31,17 @@ body {
   margin-left: 60px;
 }
 
-.headr .logo .menuBtn {
+.headr .logo .log:hover {
+  text-decoration: underline;
+}
+
+.headr .logo .log:active {
+  color: #472999;
+}
+
+.headr .logo .fa-bars {
   display: none;
+  font-size: 2.7rem;
 }
 
 .headr .navbar {
@@ -47,11 +51,8 @@ body {
   padding: 0;
   gap: 32px;
   margin-right: 60px;
-  transition: text-decoration  1s; /* animation changes */
-}
 
-.headr .navbar:hover {
-  text-decoration: underline;
+  /* animation changes */
 }
 
 .headr .navbar a {
@@ -60,6 +61,13 @@ body {
   font-size: 15px;
   color: #344563;
   text-transform: capitalize;
+  transition: text-decoration  1s;
+}
+
+.headr .navbar a:hover {
+  text-decoration: underline;
+  color: blue;
+  letter-spacing: 2px;
 }
 
 .headline {
@@ -497,7 +505,7 @@ body {
   padding-top: 142px;
 }
 
-.about .skills_list .box{
+.about .skills_list .box {
   padding: 24px 12px;
   width: 100%;
 }
@@ -507,7 +515,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 24px 12px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .about .skills_list .box-side h3 {
@@ -625,6 +633,12 @@ body {
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
   resize: none;
+}
+
+#name:focus,
+#email:focus,
+#text-box:focus {
+  border: 2px solid #ff702e;
 }
 
 .submit {
@@ -753,7 +767,7 @@ body {
 
   .about .skills_list .box .lang {
     width: 100%;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .about .skills_list .box .box_drop ul {
@@ -784,8 +798,6 @@ body {
     gap: 12px;
     background: #fff;
   }
-
-  
 
   .about .skills_list .box .box_drop ul {
     list-style: none;
@@ -866,10 +878,10 @@ body {
     margin-left: -10px;
   }
 
-  .headr .logo .menuBtn {
+  .headr .logo .fa-bars {
     display: inline-block;
     position: absolute;
-    top: 25px;
+    top: 16px;
     left: 90%;
   }
 
