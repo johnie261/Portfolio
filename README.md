@@ -90,6 +90,10 @@ Portfolio setup is a project showing the skills, experience that i have and also
 
 - [Live Demo Link](https://johnie261.github.io/portfolio-setup-and-mobile-first-/)
 
+>Here is a link to my loom video
+
+- [Loom video Link](https://www.loom.com/share/bd4e44521a35436ebb96bd6d857efb53)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
