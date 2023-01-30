@@ -55,7 +55,7 @@ body {
   /* animation changes */
 }
 
-.headr .navbar a {
+.headr .navbar .links {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -64,7 +64,7 @@ body {
   transition: text-decoration  1s;
 }
 
-.headr .navbar a:hover {
+.headr .navbar .links:hover {
   text-decoration: underline;
   color: blue;
   letter-spacing: 2px;
@@ -886,9 +886,19 @@ body {
   }
 
   .headr .navbar {
-    flex-flow: column;
-    padding: 2rem;
-    display: none;
+    position: fixed;
+    top: 7%;
+    left: -100%;
+    padding: 28px;
+    background: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    width: 100%;
+  }
+
+  .headr .navbar.active{
+    left: 0;
   }
 
   .headline {
