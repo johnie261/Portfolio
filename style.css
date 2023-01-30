@@ -21,6 +21,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 .headr .logo .log {
@@ -870,7 +872,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
   .headr {
     padding: 14px 7%;
   }
@@ -879,24 +880,25 @@ body {
     margin-left: -10px;
   }
 
-  .headr .logo .log.active{
-    display: none;
-  }
-
-
   .headr .logo .fa-bars {
     display: inline-block;
     position: absolute;
     top: 16px;
     left: 90%;
     z-index: 1;
+    color: #6070ff;
+  }
+
+  #menuBttn.active {
+    color: white;
   }
 
   .headr .navbar {
     position: fixed;
     top: 5%;
     left: -100%;
-    padding: 28px;
+    padding-left: 28px;
+    padding-top: 50px;
     background: #fff;
     flex-direction: column;
     align-items: flex-start;
@@ -904,7 +906,7 @@ body {
     width: 100%;
   }
 
-  .headr .navbar.active{
+  .headr .navbar.active {
     left: 0;
     top: 0;
     background-color: rgba(97, 113, 255, 0.8);
@@ -914,7 +916,7 @@ body {
   .headr .navbar .links {
     font-weight: 600;
     font-size: 32px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .headline {
