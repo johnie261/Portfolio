@@ -889,6 +889,7 @@ body {
     position: absolute;
     top: 16px;
     left: 90%;
+    z-index: 1;
   }
 
   .headr .navbar {
@@ -905,6 +906,15 @@ body {
 
   .headr .navbar.active{
     left: 0;
+    top: 0;
+    background-color: rgba(97, 113, 255, 0.8);
+    height: 100vh;
+  }
+
+  .headr .navbar .links {
+    font-weight: 600;
+    font-size: 32px;
+    color: #ffffff;
   }
 
   .headline {

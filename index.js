@@ -6,7 +6,6 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
     logo.classList.toggle('active');
-
 });
 
 
