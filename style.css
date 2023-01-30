@@ -870,6 +870,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
   .headr {
     padding: 14px 7%;
   }
@@ -877,6 +878,11 @@ body {
   .headr .logo .log {
     margin-left: -10px;
   }
+
+  .headr .logo .log.active{
+    display: none;
+  }
+
 
   .headr .logo .fa-bars {
     display: inline-block;
@@ -887,7 +893,7 @@ body {
 
   .headr .navbar {
     position: fixed;
-    top: 7%;
+    top: 5%;
     left: -100%;
     padding: 28px;
     background: #fff;
