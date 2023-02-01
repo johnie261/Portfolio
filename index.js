@@ -1,9 +1,8 @@
 const menu = document.querySelector('#menuBttn');
 const navbar = document.querySelector('.navbar');
 const modalContainer = document.querySelector('.modal-container');
-const containerProject = document.querySelector('.work')
+const containerProject = document.querySelector('.work');
 const overlay = document.querySelector('.overlay');
-
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('fa-times');
@@ -17,20 +16,20 @@ document.querySelectorAll('.links').forEach((link) => link.addEventListener('cli
   menu.classList.remove('active');
 }));
 
-//create array
+// create array
 
 const cardsContainer = [
-  
- {
+
+  {
     id: 0,
     name: 'Tonic',
     titleDescription: [
       'Canopy',
       'Back End Dev',
-      '2015'
+      '2015',
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image : 'unt/tush1.png',
+    image: 'unt/tush1.png',
     technologies: [
       'html',
       'css',
@@ -45,7 +44,7 @@ const cardsContainer = [
     titleDescription: [
       'Canopy',
       'Back End Dev',
-      '2015'
+      '2015',
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'unt/tush.pngj',
@@ -63,7 +62,7 @@ const cardsContainer = [
     titleDescription: [
       'Canopy',
       'Back End Dev',
-      '2015'
+      '2015',
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'unt/tush3.png',
@@ -81,7 +80,7 @@ const cardsContainer = [
     titleDescription: [
       'Canopy',
       'Back End Dev',
-      '2015'
+      '2015',
     ],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: './unt/Snapshoot Portfolio (3).png',
@@ -94,74 +93,117 @@ const cardsContainer = [
   },
 ];
 
-//create modal
+// create modal
 
 const displayModal = (id) => {
-    for(let card of cardsContainer ){
-    if (Number(id) === card.id) {
-      modalContainer.style.display = "flex";
-      overlay.style.display = 'block'
-      let html = '';
-      html += `
-    <div class= "title-modal">
-    <h3 class="heading">${card.name}</h3>
-    <button class="close-modal">
-      <i class="fas fa-times"></i>
-    </button>
-    </div>
-    <ul class="exper-modal">
-        <li class="comp">${card.titleDescription[0]}</li>
-        <li class="dot">&#x2022;</li>
-        <li class="comp1">${card.titleDescription[1]}</li>
-        <li class="dot">&#x2022;</li>
-        <li class="comp1">${card.titleDescription[2]}</li>
-    </ul>
-    <img class="project-image" src="${card.image}">
-    <div class='flex-sidebar'>
-      <div class=desc>
-        <p class="project-description">${card.description}</p>
-      </div>
-      <div class='side'>
-        <ul class="tags-modal">
-          <li class="language">${card.technologies[0]}</li>
-          <li class="language">${card.technologies[1]}</li>
-          <li class="language">${card.technologies[2]}</li>
-        </ul>
+  const displayIdOf = cardsContainer.findIndex((card) => card.id === +id);
+  modalContainer.style.display = 'flex';
+  overlay.style.display = 'block';
+  let html = '';
 
-        <div class="btns-modal">
-          <div class="btns1">
-            <a class="btn-seeLive" href="${card.liveVersion}"> See live </a>
-            <i class="fa-regular fa-share-from-square" id="btn-icon"></i>
-          </div>
-          <div class="btns2">
-            <a class="btn-seeSource" href="${card.source}">See source </a>
-            <i class="fa-brands fa-github" id="btn-gitIcon"></i>
+  html += `<div class= "title-modal">
+      <h3 class="heading">${cardsContainer[displayIdOf].name}</h3>
+      <button class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+      </div>
+      <ul class="exper-modal">
+          <li class="comp">${cardsContainer[displayIdOf].titleDescription[0]}</li>
+          <li class="dot">&#x2022;</li>
+          <li class="comp1">${cardsContainer[displayIdOf].titleDescription[1]}</li>
+          <li class="dot">&#x2022;</li>
+          <li class="comp1">${cardsContainer[displayIdOf].titleDescription[2]}</li>
+      </ul>
+      <img class="project-image" src="${cardsContainer[displayIdOf].image}">
+      <div class='flex-sidebar'>
+        <div class=desc>
+          <p class="project-description">${cardsContainer[displayIdOf].description}</p>
+        </div>
+        <div class='side'>
+          <ul class="tags-modal">
+            <li class="language">${cardsContainer[displayIdOf].technologies[0]}</li>
+            <li class="language">${cardsContainer[displayIdOf].technologies[1]}</li>
+            <li class="language">${cardsContainer[displayIdOf].technologies[2]}</li>
+          </ul>
+  
+          <div class="btns-modal">
+            <div class="btns1">
+              <a class="btn-seeLive" href="${cardsContainer[displayIdOf].liveVersion}"> See live </a>
+              <i class="fa-regular fa-share-from-square" id="btn-icon"></i>
+            </div>
+            <div class="btns2">
+              <a class="btn-seeSource" href="${cardsContainer[displayIdOf].source}">See source </a>
+              <i class="fa-brands fa-github" id="btn-gitIcon"></i>
+            </div>
           </div>
         </div>
-      </div>
-    </div>`;
+      </div>`;
 
-    modalContainer.innerHTML = html;    
-    }
-  };
+  modalContainer.innerHTML = html;
 
-  //close modal
-const ModalClose = document.querySelector('.close-modal');
+  // for (const card of cardsContainer) {
+  //   if (Number(id) === card.id) {
+  //     modalContainer.style.display = 'flex';
+  //     overlay.style.display = 'block';
+  //     let html = '';
+  //     html += `
+  //   <div class= "title-modal">
+  //   <h3 class="heading">${card.name}</h3>
+  //   <button class="close-modal">
+  //     <i class="fas fa-times"></i>
+  //   </button>
+  //   </div>
+  //   <ul class="exper-modal">
+  //       <li class="comp">${card.titleDescription[0]}</li>
+  //       <li class="dot">&#x2022;</li>
+  //       <li class="comp1">${card.titleDescription[1]}</li>
+  //       <li class="dot">&#x2022;</li>
+  //       <li class="comp1">${card.titleDescription[2]}</li>
+  //   </ul>
+  //   <img class="project-image" src="${card.image}">
+  //   <div class='flex-sidebar'>
+  //     <div class=desc>
+  //       <p class="project-description">${card.description}</p>
+  //     </div>
+  //     <div class='side'>
+  //       <ul class="tags-modal">
+  //         <li class="language">${card.technologies[0]}</li>
+  //         <li class="language">${card.technologies[1]}</li>
+  //         <li class="language">${card.technologies[2]}</li>
+  //       </ul>
 
-ModalClose.addEventListener('click', (e) => {
-  e.preventDefault();
-  modalContainer.style.display = "none";
-  overlay.style.display = "none";
-});
+  //       <div class="btns-modal">
+  //         <div class="btns1">
+  //           <a class="btn-seeLive" href="${card.liveVersion}"> See live </a>
+  //           <i class="fa-regular fa-share-from-square" id="btn-icon"></i>
+  //         </div>
+  //         <div class="btns2">
+  //           <a class="btn-seeSource" href="${card.source}">See source </a>
+  //           <i class="fa-brands fa-github" id="btn-gitIcon"></i>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>`;
 
-}
+  //     modalContainer.innerHTML = html;
+  //   }
+  // }
 
-//display cards
+  // close modal
+  const ModalClose = document.querySelector('.close-modal');
+
+  ModalClose.addEventListener('click', (e) => {
+    e.preventDefault();
+    modalContainer.style.display = 'none';
+    overlay.style.display = 'none';
+  });
+};
+
+// display cards
 
 cardsContainer.forEach((card) => {
-  
   const boxCard = document.createElement('div');
-  boxCard.className = `box-card`;
+  boxCard.className = 'box-card';
   const html = `
   <div class="box-card">
     <div class="image">
@@ -186,7 +228,7 @@ cardsContainer.forEach((card) => {
     </div>
   </div>
   `;
-containerProject.insertAdjacentHTML('afterbegin', html);
+  containerProject.insertAdjacentHTML('afterbegin', html);
 });
 
 const btnModal = document.querySelectorAll('.btn');
@@ -194,4 +236,3 @@ btnModal.forEach((btn) => btn.addEventListener('click', (e) => {
   const { id } = e.target;
   displayModal(id);
 }));
-
