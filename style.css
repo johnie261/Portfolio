@@ -331,26 +331,15 @@ body {
   padding: 16px;
   position: fixed;
   z-index: 1;
-  
- /* max-height: calc(100vh - 210px);
-  overflow-y: auto;
-  max-height: 100vh;
-  overflow-y: auto;
-  overflow: auto;
-*/
   height: 90%;
-  z-index: 9999;
   background: #c1c7d0;
   overflow: auto;
-
   left: 300px;
   right: 300px;
   top: 5%;
   display: none;
-  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-
 }
 
 .title-modal {
@@ -427,7 +416,7 @@ body {
 }
 
 .btns1:hover,
-.btns2:hover{
+.btns2:hover {
   color: #fff;
   background-color: black;
 }
@@ -746,7 +735,6 @@ body {
 }
 
 @media screen and (min-width: 1250px) {
-
   .modal-container {
     margin: 16px;
     flex-direction: column;
@@ -755,23 +743,20 @@ body {
     position: fixed;
     z-index: 1;
     height: 90%;
-    z-index: 9999;
     background: #c1c7d0;
-    overflow: auto; 
+    overflow: auto;
     left: 300px;
     right: 300px;
     top: 4%;
     display: none;
-    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-  
   }
 
   .btns1 #btn-icon {
     margin-left: 10px;
   }
-  
+
   .btns2 #btn-gitIcon {
     margin-left: 1px;
   }
@@ -781,11 +766,12 @@ body {
     gap: 12px;
   }
 
-  .btns1{
-  flex: 1 1 3rem;
-  font-size: 13px;
-  text-align: start;
-}
+  .btns1 {
+    flex: 1 1 3rem;
+    font-size: 13px;
+    text-align: start;
+  }
+
   .btns2 {
     flex: 1 1 4rem;
     font-size: 13px;
@@ -991,12 +977,10 @@ body {
     padding: 16px;
     position: fixed;
     z-index: 1;
-
     max-height: calc(100vh - 210px);
     max-height: 100vh;
     overflow-y: auto;
     overflow: auto;
-
     left: 5%;
     right: 5%;
     top: 0;
@@ -1346,7 +1330,6 @@ body {
   .box-card .content .tags {
     margin-top: 190px;
   }
-
 
   .btns1,
   .btns2 {
