@@ -127,67 +127,19 @@ const displayModal = (id) => {
           </ul>
   
           <div class="btns-modal">
-            <div class="btns1">
+            <button class="btns1">
               <a class="btn-seeLive" href="${cardsContainer[displayIdOf].liveVersion}"> See live </a>
               <i class="fa-regular fa-share-from-square" id="btn-icon"></i>
-            </div>
-            <div class="btns2">
+            </button>
+            <button class="btns2">
               <a class="btn-seeSource" href="${cardsContainer[displayIdOf].source}">See source </a>
               <i class="fa-brands fa-github" id="btn-gitIcon"></i>
-            </div>
+            </button>
           </div>
         </div>
       </div>`;
 
   modalContainer.innerHTML = html;
-
-  // for (const card of cardsContainer) {
-  //   if (Number(id) === card.id) {
-  //     modalContainer.style.display = 'flex';
-  //     overlay.style.display = 'block';
-  //     let html = '';
-  //     html += `
-  //   <div class= "title-modal">
-  //   <h3 class="heading">${card.name}</h3>
-  //   <button class="close-modal">
-  //     <i class="fas fa-times"></i>
-  //   </button>
-  //   </div>
-  //   <ul class="exper-modal">
-  //       <li class="comp">${card.titleDescription[0]}</li>
-  //       <li class="dot">&#x2022;</li>
-  //       <li class="comp1">${card.titleDescription[1]}</li>
-  //       <li class="dot">&#x2022;</li>
-  //       <li class="comp1">${card.titleDescription[2]}</li>
-  //   </ul>
-  //   <img class="project-image" src="${card.image}">
-  //   <div class='flex-sidebar'>
-  //     <div class=desc>
-  //       <p class="project-description">${card.description}</p>
-  //     </div>
-  //     <div class='side'>
-  //       <ul class="tags-modal">
-  //         <li class="language">${card.technologies[0]}</li>
-  //         <li class="language">${card.technologies[1]}</li>
-  //         <li class="language">${card.technologies[2]}</li>
-  //       </ul>
-
-  //       <div class="btns-modal">
-  //         <div class="btns1">
-  //           <a class="btn-seeLive" href="${card.liveVersion}"> See live </a>
-  //           <i class="fa-regular fa-share-from-square" id="btn-icon"></i>
-  //         </div>
-  //         <div class="btns2">
-  //           <a class="btn-seeSource" href="${card.source}">See source </a>
-  //           <i class="fa-brands fa-github" id="btn-gitIcon"></i>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </div>`;
-
-  //     modalContainer.innerHTML = html;
-  //   }
-  // }
 
   // close modal
   const ModalClose = document.querySelector('.close-modal');
