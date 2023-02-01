@@ -332,12 +332,12 @@ body {
   position: fixed;
   z-index: 1;
   height: 90%;
-  background: #c1c7d0;
   overflow: auto;
   left: 300px;
   right: 300px;
   top: 5%;
   display: none;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -743,12 +743,12 @@ body {
     position: fixed;
     z-index: 1;
     height: 90%;
-    background: #c1c7d0;
     overflow: auto;
     left: 300px;
     right: 300px;
     top: 4%;
     display: none;
+    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
   }
