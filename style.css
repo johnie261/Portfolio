@@ -691,15 +691,15 @@ body {
   width: 447px;
   height: 48px;
   border-radius: 8px;
-  padding-left: 15px; 
+  padding-left: 15px;
 }
 
 .error {
-  border: 2px solid red; 
-  background: #FFCCCB;
+  border: 2px solid red;
+  background: #ffcccb;
 }
 
-#form .error-box{
+#form .error-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -708,13 +708,13 @@ body {
   width: 447px;
 }
 
-#form span.error-txt{
+#form span.error-txt {
   color: red;
-  font-size: 17px;  
+  font-size: 17px;
 }
 
-#form span.suggest-msg{
-  font-size: 15px;  
+#form span.suggest-msg {
+  font-size: 15px;
 }
 
 #text-box {
@@ -747,7 +747,7 @@ body {
   width: 140px;
   background: #fff;
   margin-top: 22px;
-  margin-bottom: 45px;  
+  margin-bottom: 45px;
 }
 
 .submit .button:hover {
@@ -923,11 +923,11 @@ body {
     border-top: 1px solid #ebecf0;
   }
 
-  #form span.error-txt{
-    font-size: 15px;  
+  #form span.error-txt {
+    font-size: 15px;
   }
 
-  #form span.suggest-msg{
+  #form span.suggest-msg {
     font-weight: 13px;
   }
 }
@@ -1265,7 +1265,7 @@ body {
     width: 327px;
   }
 
-  #form .error-box{
+  #form .error-box {
     width: 327px;
     align-items: flex-start;
   }

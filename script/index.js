@@ -189,3 +189,63 @@ btnModal.forEach((btn) => btn.addEventListener('click', (e) => {
   displayModal(id);
 }));
 
+
+// form validation
+/*
+
+const formVal = document.getElementById('form');
+const InputEmail = document.getElementById('email');
+const error = document.getElementById('error');
+
+
+formVal.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const emailValue = InputEmail.value;
+  if (emailValue === emailValue.toLowerCase()) {
+    formVal.submit();
+    formVal.reset();
+  }   else {
+    error.classList.replace('d-none', 'd-flex');
+    error.textContent = 'Email must be lowercase - form not submitted!';
+  }
+}
+
+
+  //const validationCheck = InputEmail.value.toLocaleLowerCase();
+   // const emailValue = InputEmail.value;
+/*
+  if (emailValue === emailValue.toLowerCase()){
+    InputEmail.classList.remove('error');
+    formVar.removeChild(document.querySelector('.error-msg'));
+    formVar.removeChild(document.querySelector('.suggest-msg'));
+    formVar.submit();
+  } else {
+    e.preventDefault();
+    InputEmail.classList.add('error');
+    formVar.insertAdjacentHTML('beforeend',
+      `<span class="error-msg">Please enter a valid email address with only lowercase letters</span>
+    <span class="suggest-msg">Is <span class="correct-email">"${validationCheck}"</span> the correct address?</span>`);
+  }
+})
+*/
+/*  checkEmailInput();
+});
+
+function checkEmailInput(){
+  const emailValue = InputEmail.value;
+  if(emailValue === emailValue.toLowerCase()){
+    setErrorFor(InputEmail, '*Invalid Email');
+  }else{
+    setSuccessFor(InputEmail);
+  }
+}
+
+function setErrorFor(input, message){
+  const formControl = input.parentElement;
+  const error = formControl.querySelector('.error');
+
+  error.innerText = message;
+
+  formControl.className = 'mail-error'
+}
+*/
