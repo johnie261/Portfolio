@@ -188,4 +188,3 @@ btnModal.forEach((btn) => btn.addEventListener('click', (e) => {
   const { id } = e.target;
   displayModal(id);
 }));
-
