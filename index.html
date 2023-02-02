@@ -132,14 +132,14 @@
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
 
-            <form action="https://formspree.io/f/moqzvwyo" method="post">
+            <form id="form" action="https://formspree.io/f/moqzvwyo" method="post">
                 <div class="name">
                     <label for="name"></label>
                     <input id="name" name="name" type="text" maxlength="30" placeholder="Enter your name" required="">
                 </div>
-                <div class="mail">
+                <div class="mail-error">
                     <label for="email"></label>
-                    <input type="email" id="name" name="email" placeholder="Enter your email" required="">
+                    <input class="emailInput" type="email" id="email" name="email" placeholder="Enter your email" required="">
                 </div>
                 <div class="text">
                     <label for="text-box"></label>
@@ -155,5 +155,6 @@
 
     <div class="overlay"></div>
 
-<script src="index.js"></script>
+<script src="script/index.js"></script>
+<script src="script/form.js"></script>
 </body>
