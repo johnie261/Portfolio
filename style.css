@@ -660,6 +660,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: auto;
 }
 
 .title {
@@ -688,14 +690,35 @@ body {
   margin-bottom: 20px;
   width: 447px;
   height: 48px;
-  border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding-left: 15px;
 }
 
+.error {
+  border: 2px solid red;
+  background: #ffcccb;
+}
+
+#form .error-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -35px;
+  margin-bottom: 25px;
+  width: 447px;
+}
+
+#form span.error-txt {
+  color: red;
+  font-size: 17px;
+}
+
+#form span.suggest-msg {
+  font-size: 15px;
+}
+
 #text-box {
   width: 447px;
-  border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
   resize: none;
@@ -898,6 +921,14 @@ body {
 
   .btns-modal {
     border-top: 1px solid #ebecf0;
+  }
+
+  #form span.error-txt {
+    font-size: 15px;
+  }
+
+  #form span.suggest-msg {
+    font-weight: 13px;
   }
 }
 
@@ -1232,6 +1263,11 @@ body {
   #email,
   #text-box {
     width: 327px;
+  }
+
+  #form .error-box {
+    width: 327px;
+    align-items: flex-start;
   }
 
   .submit {
