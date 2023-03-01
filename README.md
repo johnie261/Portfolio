@@ -88,7 +88,7 @@ Portfolio setup is a project showing the skills, experience that i have and also
 
 > Here you can see the live demo of my project:
 
-- [Live Demo Link](https://johnie261.github.io/portfolio-setup-and-mobile-first-/)
+- [Live Demo Link](https://johnie261.github.io/Portfolio/)
 
 >Here is a link to my loom video
 
