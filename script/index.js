@@ -22,56 +22,56 @@ const cardsContainer = [
 
   {
     id: 0,
-    name: 'Tonic',
+    name: 'To-do list',
     titleDescription: [
       'Canopy',
-      'Back End Dev',
-      '2015',
+      'Front End Dev',
+      '2023',
     ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'unt/tush1.png',
+    description: 'A simple to-do-list web for adding, editing, deleting Tasks and marking completed tasks',
+    image: 'unt/list.png',
     technologies: [
       'html',
       'css',
       'javascript'],
-    liveVersion: '#',
-    source: '#',
+    liveVersion: 'https://johnie261.github.io/to-do-list/dist/',
+    source: 'https://github.com/johnie261/to-do-list',
   },
 
   {
     id: 1,
-    name: 'Multi-Post Stories',
+    name: 'Awesome Books',
     titleDescription: [
       'Canopy',
-      'Back End Dev',
-      '2015',
+      'Front End Dev',
+      '2023',
     ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'unt/tush.png',
+    description: 'A simple website for adding and removing books.',
+    image: 'unt/rename.png',
     technologies: [
       'html',
       'css',
       'javascript'],
-    liveVersion: '#',
-    source: '#',
+    liveVersion: 'https://johnie261.github.io/Awesome-BooksES6/',
+    source: 'https://github.com/johnie261/Awesome-BooksES6',
   },
 
   {
     id: 2,
-    name: 'Tonic',
+    name: 'Concert web',
     titleDescription: [
       'Canopy',
-      'Back End Dev',
+      'Front End Dev',
       '2015',
     ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'unt/tush3.png',
+    description: 'An online website which displays information and details about a musical concert.',
+    image: 'unt/msic.png',
     technologies: [
       'html',
       'css',
       'javascript'],
-    liveVersion: '#',
-    source: '#',
+    liveVersion: 'https://johnie261.github.io/Concert-Web/',
+    source: 'https://github.com/johnie261/Concert-Web',
   },
 
   {
@@ -82,8 +82,8 @@ const cardsContainer = [
       'Back End Dev',
       '2015',
     ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: './unt/Snapshoot Portfolio (3).png',
+    description: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown.',
+    image: './unt/tush.png',
     technologies: [
       'html',
       'css',
