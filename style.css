@@ -262,7 +262,7 @@ body {
 
 .box-card .content .tags {
   list-style: none;
-  margin-top: 95px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -848,7 +848,7 @@ body {
 
   .box-card .content .tags {
     list-style: none;
-    margin-top: 140px;
+    margin-top: 10px;
   }
 
   .about-box {
@@ -998,7 +998,7 @@ body {
   }
 
   .box-card .content .tags {
-    margin-top: 125px;
+    margin-top: 10px;
   }
 
   .modal-container {
@@ -1109,7 +1109,7 @@ body {
   }
 
   .box-card .content .tags {
-    margin-top: 110px;
+    margin-top: 10px;
   }
 
   /* modal styling */
@@ -1355,6 +1355,10 @@ body {
   }
 
   .box-card .content {
+    margin-top: -10px;
+  }
+
+  .box-card .content:first-child {
     margin-top: -100px;
   }
 
@@ -1364,7 +1368,7 @@ body {
   }
 
   .box-card .content .tags {
-    margin-top: 190px;
+    margin-top: 10px;
   }
 
   .btns1,
